@@ -1,0 +1,176 @@
+/* all of your css goes here */
+
+body {
+
+    /* Background */
+    background: black;
+    background-image: url('assets/websiteBackground.jpeg');
+    background-size: cover;
+}
+section.main {
+/* Location Settings */
+height: 750px;
+
+}
+    
+main {
+    /* Border Settings */
+    border-style: groove;
+    border-width: 10px;
+    border-left-color: blue;
+    border-right-color: rgb(255, 100, 0);
+    border-top-color: purple;
+    border-bottom-color: purple;
+    /* Location Settings */
+    position: absolute;
+    top: 18%;
+    right: 415px;
+    width: 600px;
+
+}
+
+h1.title {
+    /* Color */
+    background: white;
+    /* Text Settings */
+    font-size: 75px;
+    font-family: Courier New, Courier, monospace;
+    /* Border Settings */
+    border-width: 10px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: blue;
+    border-right-color: rgb(255, 100, 0);
+    /* Location Settings */
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+div.description {
+    /* Color */
+    background: white;
+    /* Border Settings */
+    border-width: 10px;
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-radius: 15px;
+    /* Location Settings */
+    position: absolute;
+    top: 21%;
+    right: 77%;
+    width: 300px;
+    height: 655px;
+}
+
+div.user_guide {
+    /* Color */
+    background: white;
+    /* Border Settings */
+    border-width: 10px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-top-color: rgb(255, 100, 0);
+    border-left-color: rgb(255, 100, 0);
+    border-radius: 15px;
+    /* Location Settings */
+    width: 300px;
+    height: 655px;
+    position: absolute; top: 21%;
+    right: 1%;
+}
+
+div.about {
+    /* Color */
+    background: white;
+    /* Border Settings */
+    border-width: 10px;
+    border-top-style: ridge;
+    border-right-style: dashed;
+    border-left-style: dashed;
+    border-bottom-style: dashed;
+    border-top-color: purple;
+    border-radius: 30px;
+    /* Location Settings */
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+div.screenshots {
+    /* Color */
+    background: white;
+    /* Border Settings */
+    border-width: 10px;
+    border-top-style: ridge;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: dashed;
+    border-top-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-radius: 30px;
+    /* Location Settings */
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+}
+
+div.images {
+    /* Color */
+    background: black;
+    /* Border Settings */
+    border-width: 10px;
+    border-top-style: ridge;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: dashed;
+    border-top-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-radius: 30px;
+}
+
+h2.column_heading {
+    /* Text Settings */
+    font-family: Courier New, Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    /* Border Settings */
+    border-bottom: solid;
+    border-width: 5px;
+    /* Location Settings */
+    width: 300px;
+    padding-top: 0px;
+}
+
+h2.row_heading {
+    /* Text Settings */
+    font-family: Courier New, Courier, monospace;
+    font-size: 40px;
+    /* Border Settings */
+    border-bottom: solid;
+    border-width: 5px;
+    /* Location Settings */
+    text-align: center;
+    padding-top: 0px;
+}
+
+p.section_content {
+    /* Text Settings*/
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+    /* Location Settings */
+    text-align: center;
+}
